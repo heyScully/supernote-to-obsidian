@@ -2,7 +2,7 @@
 
 This script that takes a daily .note file, converts handwriting to markdown, and inserts it into today's Obsidian daily note.  
 
-For me, I really like taking handwritten notes for recall and general presence.  I find my Supernote Manta is truly great for this.  No other e-ink tablet feels more like pen-on-pad to me.  The problem is that I need searchable notes, and my handwriting is awful (and I tend to write in all caps).  The on-device handwriting recognition may work for some people, but not for me.  I find that Gemini Pro 2.5 works really well for my handwriting, and using this script in my daily routine still keeps me in the free tier with Google.  Lots of room to improve, but here's a braindump of the things you may want to know to start.
+For me, I really like taking handwritten notes for recall and general presence.  I find my Supernote Manta is truly great for this.  No other e-ink tablet feels more like pen-on-pad to me.  The problem is that I need searchable notes, and my handwriting is awful (and I tend to write in all caps).  The on-device handwriting recognition may work for some people, but not for me.  I find that Gemini 2.5 Pro works really well for my handwriting, and using this script in my daily routine still keeps me in the free tier with Google.  Lots of room to improve, but here's a braindump of the things you may want to know to start.
 
 The key is that my Manta is my input device, but not my retrieval device.  Notes on my tablet are ephemeral, but I save PDF versions in my Obsidian notebook like I might hang onto old notebooks.  Obsidian is my main (and searchable) note store.  However, I also sideloaded Obsidian on my Manta, so I have that option for retrieval on the tablet as well if my Manta is what is handy.
 
