@@ -6,6 +6,41 @@ For me, I really like taking handwritten notes for recall and general presence. 
 
 The key is that my Manta is my input device, but not my retrieval device.  Notes on my tablet are ephemeral, but I save PDF versions in my Obsidian notebook like I might hang onto old notebooks.  Obsidian is my main (and searchable) note store.  However, I also sideloaded Obsidian on my Manta, so I have that option for retrieval on the tablet as well if my Manta is what is handy.
 
+# What it looks like
+
+## A sample Supernote handwritten page:
+![Sample Handwritten Note Page](supernote-handwritten-page.webp)
+
+## Gets converted into:
+
+```
+## ✨ Supernote
+
+### This is a test heading
+- Bullet 1
+- Bullet 2
+- 0r in cursive
+- ==Or all caps==
+
+| Column A | Column 2 |
+|---|---|
+| word | game |
+| messy | guess |
+| test | user |
+
+Did it properly preserve the table above?
+- ==I can highlight, too==
+- But not this line
+1. Numbered
+2. List
+3. Also
+
+![[attachments/2025-05-04_supernote.pdf]]
+```
+## And ends up like this in Obsidian:
+![Resulting Obsidian Page](resulting-obsidian-note.webp)
+
+
 # What it does
 
 Hazel looks for `.note` files in a Supernote directory created *before* today.  When it finds one, it triggers this script, which:
